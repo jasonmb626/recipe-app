@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "$@"
+docker-compose run --rm app sh -c "$@"
