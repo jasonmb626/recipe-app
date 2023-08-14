@@ -20,6 +20,8 @@ RUN python -m venv /py && \
   /py/bin/pip install -r /tmp/requirements.dev.txt; \
   fi && \
   apk del .tmp-build-deps && \
+  rm -fr /tmp && \
+  mkdir /tmp && \
   adduser \
   --disabled-password \
   django-user && \
