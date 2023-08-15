@@ -4,6 +4,10 @@
   "workspaceFolder": "/app",
   "remoteUser": "django-user",
   "customizations": {
-    "vscode": {}
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
   }
 }
